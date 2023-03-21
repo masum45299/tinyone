@@ -34,3 +34,20 @@
     height: 85vh;
     background-color: #ffa276;
 }
+.nav-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-inline--fa{
+    height: 4rem;
+    margin-left: 38px;
+}
+.apple{
+    margin-left: 0px;
+}
+.mobile img{
+    margin-top: 40px;
+    width: 200px;
+    height: 320px;
+}

@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import './NavBar.css';
 import {  Link, NavLink } from 'react-router-dom';
 import logo from './logo.png';
+import mobile from './mobile.png';
 import { Navbar, Nav, Container,Carousel } from "react-bootstrap";
+import { faWindows,faAndroid,faApple } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const NavBar = () => {
     const [index, setIndex] = useState(0);
@@ -31,6 +34,32 @@ const NavBar = () => {
                                 </Container>
                         </Navbar>
                         {/* NavBar end */}
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-md-6 nav-flex'>
+                                    <div>
+                                    <h2 className='mb-3'>Inspire your inspiration</h2>
+                                    <h5 className='mb-3'>Simple to use for your app, products showcase and your inspiration</h5>
+                                    <p className='mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                                    <div className='fontAwsome'>
+                                    <FontAwesomeIcon
+                                    className='apple'
+                                    icon={faApple}
+                                    ></FontAwesomeIcon>
+                                    <FontAwesomeIcon
+                                    icon={faAndroid}
+                                    ></FontAwesomeIcon>
+                                    <FontAwesomeIcon
+                                    icon={faWindows}
+                                    ></FontAwesomeIcon>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div className='col-md-6 mobile nav-flex'>
+                                    <img  src={mobile} alt=''></img>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     {/* <Carousel.Caption>
                     <h3>First slide label</h3>
