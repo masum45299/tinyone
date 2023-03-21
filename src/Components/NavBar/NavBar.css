@@ -1,0 +1,36 @@
+.justify-end{
+    justify-content: flex-end;
+}
+
+.menu a{
+    /* margin-left: 30px; */
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black
+}
+.menu a:hover{
+    color: rebeccapurple;
+}
+.active{
+    background-color: white
+}
+.carousel-control-next{
+    top: 65px!important;
+}
+.carousel-control-prev{
+    top: 65px!important;
+}
+.yellow{
+    height: 85vh;
+    background-color: #fcdb00;
+}
+.orange{
+    height: 85vh;
+    background-color: #e47200;
+}
+.badami{
+    height: 85vh;
+    background-color: #ffa276;
+}
