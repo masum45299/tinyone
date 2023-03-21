@@ -61,10 +61,6 @@ const NavBar = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                 <div className='orange'>
@@ -84,11 +80,34 @@ const NavBar = () => {
                                 </Container>
                             </Navbar>
                         {/* NavBar end */}
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-md-6 nav-flex'>
+                                    <div>
+                                    <h2 className='mb-3'>Inspire your inspiration</h2>
+                                    <h5 className='mb-3'>Simple to use for your app, products showcase and your inspiration</h5>
+                                    <p className='mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                                    <div className='fontAwsome'>
+                                    <FontAwesomeIcon
+                                    className='apple'
+                                    icon={faApple}
+                                    ></FontAwesomeIcon>
+                                    <FontAwesomeIcon
+                                    icon={faAndroid}
+                                    ></FontAwesomeIcon>
+                                    <FontAwesomeIcon
+                                    icon={faWindows}
+                                    ></FontAwesomeIcon>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div className='col-md-6 mobile nav-flex'>
+                                    <img  src={mobile} alt=''></img>
+                                </div>
+                            </div>
+                        </div>
                 </div>
-                    {/* <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption> */}
+
                 </Carousel.Item>
                 <Carousel.Item>
                 <div className='badami'>
@@ -108,14 +127,33 @@ const NavBar = () => {
                                 </Container>
                         </Navbar>
                         {/* NavBar end */}
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-md-6 nav-flex'>
+                                    <div>
+                                    <h2 className='mb-3'>Inspire your inspiration</h2>
+                                    <h5 className='mb-3'>Simple to use for your app, products showcase and your inspiration</h5>
+                                    <p className='mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                                    <div className='fontAwsome'>
+                                    <FontAwesomeIcon
+                                    className='apple'
+                                    icon={faApple}
+                                    ></FontAwesomeIcon>
+                                    <FontAwesomeIcon
+                                    icon={faAndroid}
+                                    ></FontAwesomeIcon>
+                                    <FontAwesomeIcon
+                                    icon={faWindows}
+                                    ></FontAwesomeIcon>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div className='col-md-6 mobile nav-flex'>
+                                    <img  src={mobile} alt=''></img>
+                                </div>
+                            </div>
+                        </div>
                 </div>
-
-                    {/* <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                    </Carousel.Caption> */}
                 </Carousel.Item>
                 </Carousel>
 
