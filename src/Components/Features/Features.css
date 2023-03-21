@@ -1,0 +1,12 @@
+.features-flex{
+    display: flex;
+    margin-bottom: 20px;
+}
+.features-icon{
+    width: 33px;
+    height: 40px;
+    margin-left: 0px;
+}
+.features-info{
+    margin-left: 25px;
+}

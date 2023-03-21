@@ -6,6 +6,7 @@ import mobile from './mobile.png';
 import { Navbar, Nav, Container,Carousel } from "react-bootstrap";
 import { faWindows,faAndroid,faApple } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Features from '../Features/Features';
 
 const NavBar = () => {
     const [index, setIndex] = useState(0);
@@ -156,8 +157,6 @@ const NavBar = () => {
                 </div>
                 </Carousel.Item>
                 </Carousel>
-
-
         </nav>
     );
 };

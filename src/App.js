@@ -6,9 +6,11 @@ import Features from './Components/Features/Features';
 import Support from './Components/Support/Support';
 import Blog from './Components/Blog/Blog';
 
+
 function App() {
   const router=createBrowserRouter([
     {path:"/", element: <Main></Main>,children:([
+      {path:'/',element: <Features></Features>},
       {path:'/Features',element: <Features></Features>},
       {path:'/Support',element: <Support></Support>},
       {path:'/Blog',element: <Blog></Blog>},
