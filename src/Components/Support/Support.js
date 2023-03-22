@@ -3,7 +3,7 @@ import React from 'react';
 const Support = () => {
     return (
         <div>
-            <h1>This is Support page</h1>
+            <h1 className='text-center'>Sorry !! working page</h1>
         </div>
     );
 };
