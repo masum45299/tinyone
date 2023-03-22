@@ -34,6 +34,34 @@
     height: 85vh;
     background-color: #ffa276;
 }
+@media screen and (max-width: 578px) {
+    .yellow{
+        height: 330vh;
+    }
+    .orange{
+        height: 330vh;
+    }
+    .badami{
+        height: 330vh;
+    }
+    .inspire{
+        font-size: 20px;
+    }
+    .simple{
+        font-size: 15px;
+    }
+    .loremP{
+        font-size: 10px;
+    }
+
+    .svg-inline--fa{
+        height: 3rem !important;
+        margin-left: 15px !important;
+    }
+    .apple{
+        margin-left: 0px !important;
+    }
+}
 .nav-flex{
     display: flex;
     align-items: center;

@@ -1,0 +1,34 @@
+.input-btn{
+    padding: 19px 10px;
+    width: 650px;
+    border-radius: 8px;
+}
+.button{
+    padding: 19px 36px;
+    background-color: #fcdb00;
+    margin-left: 21px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.input-flex{
+    padding:  0px 60px;
+}
+@media screen and (max-width: 578px) {
+    .input-flex{
+        
+        display: grid;
+        padding: 0px;
+        justify-items: center;
+        grid-gap: 10px;
+    }
+    .input-btn{
+        width: 225px;
+    }
+    .button{
+        margin-left: 0px;
+    }
+}
+.list li{
+    list-style: none;
+    color: #898989;
+}

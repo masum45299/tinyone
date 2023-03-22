@@ -39,9 +39,9 @@ const NavBar = () => {
                             <div className='row'>
                                 <div className='col-md-6 nav-flex'>
                                     <div>
-                                    <h2 className='mb-3'>Inspire your inspiration</h2>
-                                    <h5 className='mb-3'>Simple to use for your app, products showcase and your inspiration</h5>
-                                    <p className='mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                                    <h2 className='mb-3 inspire'>Inspire your inspiration</h2>
+                                    <h5 className='mb-3 simple'>Simple to use for your app, products showcase and your inspiration</h5>
+                                    <p className='mb-3 loremP'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
                                     <div className='fontAwsome'>
                                     <FontAwesomeIcon
                                     className='apple'
@@ -85,9 +85,9 @@ const NavBar = () => {
                             <div className='row'>
                                 <div className='col-md-6 nav-flex'>
                                     <div>
-                                    <h2 className='mb-3'>Inspire your inspiration</h2>
-                                    <h5 className='mb-3'>Simple to use for your app, products showcase and your inspiration</h5>
-                                    <p className='mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                                    <h2 className='mb-3 inspire'>Inspire your inspiration</h2>
+                                    <h5 className='mb-3 simple'>Simple to use for your app, products showcase and your inspiration</h5>
+                                    <p className='mb-3 loremP'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
                                     <div className='fontAwsome'>
                                     <FontAwesomeIcon
                                     className='apple'
@@ -132,9 +132,9 @@ const NavBar = () => {
                             <div className='row'>
                                 <div className='col-md-6 nav-flex'>
                                     <div>
-                                    <h2 className='mb-3'>Inspire your inspiration</h2>
-                                    <h5 className='mb-3'>Simple to use for your app, products showcase and your inspiration</h5>
-                                    <p className='mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                                    <h2 className='mb-3 inspire'>Inspire your inspiration</h2>
+                                    <h5 className='mb-3 simple'>Simple to use for your app, products showcase and your inspiration</h5>
+                                    <p className='mb-3 loremP'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
                                     <div className='fontAwsome'>
                                     <FontAwesomeIcon
                                     className='apple'
